@@ -1,0 +1,52 @@
+.demo-image-preview {
+    position: relative;
+    margin: 0 0;
+    text-align: center;
+    color: rgb(8, 8, 8);
+    background-image: linear-gradient(60deg, rgb(247, 255, 254), rgb(247, 255, 254));
+    background-color: rgb(247, 255, 254);
+    
+  }
+  .demo-image-preview > img {
+    border-style: none;
+    width: auto;
+    height: auto;
+  }
+  
+  @media(max-width:1080px){
+    .demo-image-preview > img {
+      width: 100%;
+    }
+  }
+  .demo-image-preview-fullscreen > img {
+    width: 100%;
+  }
+
+  .cam{
+    margin-top: 0;
+    width: 100%;
+  }
+
+  .heading{
+    border-style: none ;
+    color: #000800;
+    text-align: center;
+    font: 15px Arial, sans-serif;
+  }
+
+  .videoId {
+    background-color:whitesmoke;
+    width: 100%;
+  }
+  .react-html5-camera-photo{
+      background-color:whitesmoke;
+      margin: auto;
+  }
+  .react-html5-camera-photo>video{
+    width: 100%;
+    aspect-ratio: 135/76;
+    border-color: rgb(233, 238, 164);
+  }
+  .react-html5-camera-photo-fullscreen > video {
+    width: 100%;
+  }
